@@ -2,6 +2,36 @@ body {
     background-color: #84bbeb; 
     font-family: Bai Jamjuree;
 }
+
+#container {
+    display: flex;
+}
+
+.cartao {
+    margin: 1rem 1rem;
+    background-color: hwb(258 55% 5%);
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% -6rem);
+}
+
+.cartao__conteudo {
+    text-align: center;
+    height: 100%;
+}
+
+.cartao__conteudo {
+    background-color: hsl(241, 91%, 69%);
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rm;
+    font-size: 1vw;
+
+
+}
+
 footer {
     background-color: black ;
     color: #e5f3fe;

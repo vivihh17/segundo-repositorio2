@@ -1,5 +1,5 @@
 body {
-    background-color: #84bbeb; 
+    background-color: #93a0f9;
     font-family: Bai Jamjuree;
 }
 
@@ -9,7 +9,7 @@ body {
 
 .cartao {
     margin: 1rem 1rem;
-    background-color: hwb(258 55% 5%);
+    background-color: rgb(182, 137, 240);
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% -6rem);
@@ -20,21 +20,19 @@ body {
     height: 100%;
 }
 
-.cartao__conteudo {
-    background-color: hsl(241, 91%, 69%);
+.cartao__conteudo h3 {
+    background-color: #6647ff;
     text-align: left;
     padding: 0.5rem;
     position: absolute;
     margin: 0.6rem;
-    border-radius: 0.6rm;
+    border-radius: 0.6rem;
     font-size: 1vw;
-
-
 }
 
 footer {
-    background-color: black ;
-    color: #e5f3fe;
+    background-color: black;
+    color: white;
     position: fixed;
     bottom: 0;
     width: 100%;

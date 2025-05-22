@@ -1,5 +1,5 @@
 body {
-    background-color: #93a0f9;
+    background-color: hsl(255, 89%, 78%);
     font-family: Bai Jamjuree;
 }
 
@@ -9,7 +9,7 @@ body {
 
 .cartao {
     margin: 1rem 1rem;
-    background-color: rgb(182, 137, 240);
+    background-color: #7b5de0;
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% -6rem);
@@ -21,13 +21,14 @@ body {
 }
 
 .cartao__conteudo h3 {
-    background-color: #6647ff;
+    background-color: lab(33.15% 43.03 -53.46);
     text-align: left;
     padding: 0.5rem;
     position: absolute;
     margin: 0.6rem;
     border-radius: 0.6rem;
     font-size: 1vw;
+    color:black;
 }
 
 footer {

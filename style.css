@@ -61,7 +61,7 @@ body {
     font-weight: 700;
 }
 
-.cartao:hover .cartao__conteudo {
+.cartao:active .cartao__conteudo {
     transform: rotateY(180deg);
 }
 
@@ -78,8 +78,8 @@ body {
 }
 
 footer {
-    background-color: black;
-    color: white;
+    background-color: hwb(267 0% 78% / 0.705);
+    color: #dcceff;
     position: fixed;
     bottom: 0;
     width: 100%;

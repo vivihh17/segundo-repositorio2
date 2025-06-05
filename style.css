@@ -1,6 +1,6 @@
 :root{
     --text-color: hsl(254, 85%, 89%);
-    --card_color: hsl(252, 81%, 65%);
+    --card_color: hwb(252 33% 4%);
     --card-back-color: hwb(268 9% 25%); 
 }
 
@@ -19,7 +19,7 @@ body {
 
 .cartao {
     margin: 1rem 1rem;
-    background-color: #ad94ff;
+    background-color: hsl(254, 95%, 75%);
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% -6rem);
@@ -78,7 +78,7 @@ body {
 }
 
 footer {
-    background-color: hwb(267 0% 78% / 0.705);
+    background-color: lab(8.73% 36.17 -40.62 / 0.705);
     color: #dcceff;
     position: fixed;
     bottom: 0;
